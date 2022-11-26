@@ -1,0 +1,64 @@
+.row-down {
+    transform: translate(0px, 36px);
+    width: calc(100%);
+}
+
+.hexagon:hover {
+    cursor: pointer;
+}
+
+.hexagon:hover a {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.poligon-item a {
+    position: absolute;
+    display: block;
+    line-height: 36px;
+    color: #000;
+    font-size: 21px;
+    font-weight: 900;
+    margin: 0 auto;
+    z-index: 1;
+    text-decoration: none;
+    width: fit-content;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hexagon {
+    position: relative;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hexagon-mask-svg {
+    width: 0;
+    height: 0;
+}
+
+.hexagon-svgs {
+    transform: rotate(30deg);
+}
+
+.hexagon-btn {
+    width: fit-content;
+}
+
+.tab_active::before {
+    content: "";
+    position: absolute;
+    width: 92px;
+    right: 35px;
+    height: 10%;
+    background-color: #999;
+    z-index: 1;
+    bottom: 17px;
+}

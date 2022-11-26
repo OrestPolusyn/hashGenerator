@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="de-DE">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline Hash generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/lang.css">
+    <link rel="stylesheet" href="./css/poligon.css">
+    <link rel="stylesheet" href="./css/preloader.css">
+
+
+</head>
+
+<body>
+
+    <div class="preloader">
+        <div class="preloader-container">
+            <div class="preloader-item item-1"></div>
+            <div class="preloader-item item-2"></div>
+            <div class="preloader-item item-3"></div>
+            <div class="preloader-item item-4"></div>
+        </div>
+    </div>
+    <header class="header">
+        <div class="page-header container">
+            <div class="no-lang">
+
+                <div class="logo"><img class="logo-header" src="./images/logo-header.png" alt="IPBee"></div>
+                <div class="adress">
+                    <a class="map">Froschkönigweg 6, 21244 Buchholz, Germany</a> </div>
+                <div class="contact">
+                    <a class="phone" href="tel:+494087409589">
+                        <p>+49 408 740 9589 </p>
+                    </a>
+                    <a class="email" href="mailto:info@ip-bee.de">
+                        <p>info@ip-bee.de</p>
+                    </a>
+                </div>
+            </div>
+            <div class="lang de">
+                <div class="dropdown">
+                    <div class="dropbtn">Deutsch</div>
+                    <div class="dropdown-content">
+                        <a href="#">Deutsch</a>
+                        <a href="indexEng.html">English</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+    <div class="page-title ">
+        <h1 class="title container">Deutsch page</h1>
+    </div>
+    <div class="poligon container">
+        <div class=" row">
+            <svg class="hexagon-mask-svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179" style="position:absolute;left:-99999px;top:-99999px;"><defs></defs><clipPath id="hexagon-mask"><path d="M75.135,7.630 L13.902,42.665 C10.127,44.821 7.013,50.139 7.013,54.486 L7.008,124.532 C7.008,128.861 10.099,134.174 13.890,136.341 L75.101,171.358 C78.887,173.526 85.075,173.526 88.850,171.358 L150.100,136.318 C153.869,134.145 156.983,128.827 156.966,124.514 L156.989,54.463 C156.989,50.117 153.881,44.798 150.100,42.625 L88.901,7.630 C87.005,6.544 84.506,5.995 82.007,5.995 C79.513,5.995 77.026,6.544 75.135,7.630 " class="cls-1"/></clipPath></svg>
+
+            <div class="hexagon poligon-item tab_active">
+                <a href="#">Start</a>
+                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill:  #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+            </div>
+            <div class="hexagon poligon-item">
+                <a class="hash-soket_title" href="#">HASH Generator</a>
+
+                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                    <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill:  #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+            </div>
+            <div class="hexagon poligon-item">
+                <a href="#">FAQ</a>
+
+                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                    <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill:  #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+            </div>
+            <div class="hexagon poligon-item">
+                <a href="#">AGB</a>
+
+                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                    <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill:  #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+            </div>
+            <div class="hexagon poligon-item">
+                <a href="#">Impressum</a>
+
+                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="163" height="179" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                    <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill:  #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+            </div>
+
+
+        </div>
+    </div>
+
+    <section class="wrapper container">
+        <div class="content content-scroll">
+            <div class="overlay-popup ">
+                <div class="popup-choose ">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none" stroke="red" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <polygon points="7.86 2 16.14 2 22 7.86 22 16.14 16.14 22 7.86 22 2 16.14 2 7.86 7.86 2" />
+                    <line x1="12" y1="8" x2="12" y2="12" />
+                    <line x1="12" y1="16" x2="12.01" y2="16" />
+                  </svg>
+
+                    <h4 class="choose-title ">Datei zum hashing auswählen!</h4>
+                    <button class="btn_close-popup "> Popup schlißen</button>
+                </div>
+            </div>
+            <div class="overlay-copy ">
+                <div class="popup-copy ">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="56" viewBox="0 0 192 192">
+                        <image id="layout" data-name="layout" width="192" height="192" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAIbklEQVR4nO1dSXNVRRT+ElHUIgxhWFBuXDAlC1xYoogiouU8UqJWiRt/gRYJARIWSYAMlG78AVpailHAGbWUKgsQdCVK3ksIEAfUyBSSUO6ssro8Tb087nTOvd23+718y3dv3x6+193nfH26u2btGw/AMhoBPAlgA4CFtjNPiD8BvAXgQwD9NjO2TYgi4zsAM21mmgLjAFbaJKXWVkYAlgE44hEZoLIeobJbgS1CGgD8AKDOVsUyRB2VvcFGZjYIURU5CmCGhbxMYQbVwTgppgnRw5SPPaMcdTaGL5OELAZw2LM5Iw4zqU6LTWVgipBFVPA5hr6fJ+ZQ3RaZKIMJQjQZ8wx82xXMM0XKtIy/p7ryQQDzmeles+2ABUD5SC8z3ld1PATgLgAnsipEloQsBfAtgAXMdNsAdGRYjjQYBdDOSL+A/oCrAQxkUYCshqwG+rdwyWh1iAxQWVqZaRZQ3TMxibMgpJEKNJeZrgXA9gzyzxrbqWwczKU2aExblrSENAqtqWYA3SnzNoluKiMH2vpKRUoaQhrIUZrFTNcEoDdFvrbQS2XlYBa1iXj4khKiMvxe4IGrf90uYZ55YJegp9RR24hIkRCiyeBqU5s86Rnl6KWyczBDSgqXkGVCoVBVqIeZxiX0CEk5ytW+OIQsFQqFmz0nQ6OH6sKBFiSXJk2TlBAtFHIncGXTdzHTuIwugZ8yiyNIJiFkEdnY9cyCtDnqZ6TFdqobB/XUhrHaVxwhmgyuNqXkkE4TreEIOqmOHMxPQkoUIUuEcohL2pRJdAhI0TLLkrAXwghZRqIZl4y2KiFDo0MwfGlBMtD6CiKkQThMba7wYSoMnQLra36YIFlOiNamuBP4pgqzprjoEvgp9UHaVykhOohtNvPDzRXiZ6RFj0BmmU1tfoUUTYg0iK3ZUznEFHoFpEwKxlOELBcGsU2REQwJKToYb7kiZL1Am5oiIxoSUhQH6xUh65gJW6qEjBsAPJwifa9g5XFdbZSTEoCtjq/0ZYk+AJ8B2J3im93UZkmxRBEykfBl5QDtsNYc+WIfgEepBM/SXhEpdjCcx4mkau+rVeT07aUNRaV4AcA7KQLGO6kNY5GUkEPCgviGPQCeCinz8wBeSlGfRG2YlBCu5+4j3gPwdES5VXTiVynqlagNsw4l9RX7AoapUgwCuBvAWdP1myLk/42dT0Q8P0Hxu+dsFMbmHkMX8X4MGScBrLJFBqq4h9TQMBXXM6ySgSrtIdcC+CiGjCKAO22TgSok5BrqGY9FvPMzTeDnLZbrCqqNEOVnPBLx/CcAa/IiA1VGSNwwdQzAvQAuWCzTVagWQj4A8HjEc7Wdbm3eZKBKCNkds8RQpGEqdzJQBYS8TWptGNS+wHvysKbCUMl+yN4IoRDkZ6y2IYdwkEcPudlCHlGqLcgDt6JNcWGbkE8BnKLGMIW+GNX2FHngf9upMg82CdlNPoCSLb6miTRrKKHwmYhvOk0GLBEynYaQ0slVyRcHADyUUR41tP4dJxSq0+FGMsrTCGwQsi1iCPkcwIMZ5PFJTITIEGlTzs0Z5bBBiOoJ/0Q83w8gzcGP+2LkkAEappwnA5YI+YZ6QdRQ8YUwBurjmJW+4y6atlGwNakfpPni94h31BzA6SlJVNs1PpEBy1bWjzS0RPWU/eQ5x+HdmJ5RAHBfnqqtFLb9EPWvvZ/Oww1CDUV2RJHyJoDnIp4PkmrrVc/QyMNTP04WT1jEpDKJvwxxHpXT92LEt7Uc4qyfEYe8xEVFygoAv4U8v456yh0lv/XFOH1aDvGWDOSs9mrZO2yin04ms1qneD2GjGEK1fGaDDig9p6m+UIdDXhTwPPrSWaJwjD5GU574EnhwnrIaWrQM8K0K+k2g4qAKwtUvwK4HcAfjDTDZBxURM/QcGnFUJFxK5ETh9M+CIUSJCXkoqXyjJBlNRjxzpCnZCRqw6SErEpXFhb+oon+ZECiosfWVKI2TErIK4JzotJghEzi4ZJvFMgD95GMVmrDWNQy9qerg1a2mCvzVThDXvcv5Kus9XTO2MI4kKduGo3XSXfiqsO7/rW4E1cRcQuAGz0lYxPzELfBWlpe5aBLcJ5tGozRvOIbmgQH8uypJY3oMjNhj2VSfEOT4EAexUFfLQUZ38bYr64xRUowJGRMEAfHtJVVJPs/bJ0iDFOkTIaEjHFqe8XBJLO3nxyuS8wPSs6JqkRIzg27VH5xZbkf0k/6ENcz7xYctFJJaBFYnheprSfdLBTkGBaEmx13WnYeXUEr1Z2Dc9TGhfI0YZ66lii469KSUzp9huQU1rPUtsWgh1HSyaAwwKy9SkhpY95XBWrLVVHiaZyWNSQcvtorfPhqFZChh6mhqJeSiIuaFO5E38E8vMsXbBUMUxeTkAGG2nuCLIIxZkE6K8z6ahGcGzZGbZforkPOiuEAOTBcj35nhfgpzQJraoLaLPEdh9wl3CKtfXO1L8mtZy5BcqvcZWqrQGsqDJI19QIFuUlI8VFmaRKSsSLIz4iDNMhBkyIRJDcK88wDG4VCoYgMpIw6KdD4yJ3oJfcD5gHJfYtj1CYiMpBBGJDWvkaZ6SS3ntmE5Fa50SBtioss4rL6ycbmHk3R5aifslWw0neB2iD1FeRZBcoVhDJLp2MyS5vAzzgbJhRKkGWw9QCJZtyrktrpYl/fLrhHiVDo5AX3KDmn8DDzyiRuQ7iARNoUFyZie/WecO/29zFwnuqYKRkwGGw9JLS+fMCoKTJgOPpdC5LcwAmXMc4RCiUwvR2hKBQkXcREaXSIKdjYH1IQCpIuQQuFmZi2UbC1YacgDMZzATqIzTgZsLyDShqMlyfGbQxTpbC9C1cH46ljMTYAWGg5/6RQm0jVNUfqQDR7DiuA/wAdWL5gmFy6dAAAAABJRU5ErkJggg=="/>
+                      </svg>
+
+
+                    <h4 class="copy-title ">Ihr Ergebnis wird kopiert!</h4>
+                    <button class="btn_close-popup ">Popup schlißen</button>
+                </div>
+            </div>
+            <div class="tab-content tab-content_active">
+
+                <h2 class="tab-title"> Willkommen </h2>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, facilis officiis ab voluptate sapiente cupiditate laboriosam nesciunt dicta, explicabo, accusamus a totam quam ex reprehenderit? Reiciendis nihil tempore cupiditate possimus?
+                    Ut alias impedit quibusdam ullam aliquam, asperiores soluta voluptatibus quae nostrum quia animi, ad illum earum aliquid, magni dolores sint.</p>
+                <p class=""> Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsum accusamus consectetur unde dolore commodi. Nihil asperiores porro atque quis inventore expedita esse, tempora explicabo voluptatem velit animi accusantium illum sint modi
+                    sed est ea odio, officia repellendus voluptatibus? Aspernatur magni optio vero dolores nihil ea quis nisi iste quibusdam doloremque non obcaecati nesciunt labore aut consequatur ratione alias, provident ab nemo, possimus architecto
+                    eaque. Esse minus nulla laudantium similique nam maxime debitis reiciendis porro temporibus suscipit ducimus cupiditate iste saepe minima a doloremque nihil fugit, facilis repudiandae perspiciatis ipsum deleniti inventore architecto.
+                    Quia laudantium sed rem earum exercitationem debitis!</p>
+            </div>
+            <div class="tab-content">
+
+                <div class="generator">
+
+                    <form autocomplete="off">
+                        <div class="gereration-title">
+                            <img class="logo-hash" src="./images/logo-small.png" alt="">
+
+                            <div class="gereration-subtitle">
+                                <h3 class="gereration-text">IPBee OFFLINE HASH GENERATOR</h3>
+                            </div>
+                        </div>
+                        <div class="file-style tooltiptext file-container" data-toggle="tooltip" title="">
+                            <input class="tooltip" type="file" data-title="This you can choose your file for hash" name="file" multiple="multiple" id="files" onchange="handleFileSelect(this)">
+                            <span id="select">Wählen Sie Dateien aus</span>
+                            <span id="status">Wählen...</span>
+                        </div>
+                        <span class="tooltip-gererationText">Wählen Sie die Datei aus</span>
+                        <div class="file-text">
+                            <textarea id="input-name" readonly>Hash-code | Dateiname</textarea>
+                            <div class="btn-hash">
+                                <input id="add" type="button" value="Hash erzeugen" />
+                            </div>
+                            <span class="tooltip-addText">Hashing  starten</span>
+                            <textarea id="input" readonly>Hash-code | Dateiname</textarea>
+
+                        </div>
+
+                    </form>
+
+                    <div class="side side-hidden">
+                        <h3 class="side-title ">Was möchten sie mit dem generierten HASH tun?</h3>
+                        <div class="hexagons">
+                            <div class="hexagon hexagon-btn" id="copy" onclick="copy()">
+                                <div class="side-button"><span>Kopieren</span></div>
+                                <span class="tooltip-copy">Drücken sie die Taste, um das Ergebnis zu kopieren</span>
+
+                                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="160" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                                <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill: #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+                            </div>
+                            <div class="hexagon hexagon-btn mail-btn" onclick="sendMail()">
+                                <div class="side-button"><span>E - mail</span></div>
+                                <span class="tooltip-side">Drücken sie die Taste um das Ergebnis per E-Mail zu senden
+                                </span>
+
+                                <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="160" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                                    <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill: #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+                            </div>
+                            <a href="https://blockchain.ip-bee.de/" target="_blank">
+                                <div class="hexagon hexagon-btn visit-btn">
+                                    <div class="side-button side-button-ftp " id="btn-wrap">IPBee <br> <span>besuchen</span> </div>
+                                    <span class="tooltip-link">Besuchen Sie blockchain.ip-bee.de</span>
+
+                                    <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="160" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                                        <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill: #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+                                </div>
+                            </a>
+                            <a href="#">
+                                <div class="hexagon  hexagon-btn finish-btn ">
+                                    <div class="side-button side-button-ftp" id="btn-wrap"> Neu <br> <span>starten</span>  </div>
+                                    <span class="tooltip-finish">Hash Generator neu <span>starten</span></span>
+                                    <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="160" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                                            <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill: #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+                                </div>
+                            </a>
+                            <a href="#" class="close-window">
+                                <div class="hexagon hexagon-btn close-btn ">
+                                    <div class="side-button side-button-ftp"> Schließen </div>
+                                    <span class="tooltip-close">Hash Generator schließen</span>
+                                    <svg class="hexagon-svgs hexagon-image" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid" width="200" height="160" viewBox="0 0 163 179"><image  xlink:href="./images/honeycomb.jpg" width="320" height="180" y="0" x="-78" style="clip-path: url(#hexagon-mask);" />
+                                            <defs><style>.cls-1 {stroke: #ffd101;stroke-width: 2px;fill: #faffff85;fill-rule: evenodd;}</style></defs><path d="M75.010,6.712 L12.934,42.153 C9.108,44.334 5.951,49.714 5.951,54.111 L5.945,124.969 C5.945,129.349 9.079,134.723 12.923,136.916 L74.975,172.339 C78.813,174.532 85.086,174.532 88.912,172.339 L151.005,136.893 C154.826,134.694 157.983,129.314 157.966,124.952 L157.989,54.088 C157.989,49.691 154.838,44.311 151.005,42.112 L88.965,6.712 C87.043,5.613 84.509,5.057 81.976,5.057 C79.448,5.057 76.926,5.613 75.010,6.712 " class="cls-1"/></svg>
+                                </div>
+                            </a>
+                        </div>
+
+                        <h3 class="side-title side-bottom">Sie haben weitere Fragen?  &nbsp;<a href="mailto:blockchain@ip-bee.com">Schreiben Sie uns</a> </h3>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="tab-content scroll">
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio, perspiciatis!</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ipsa facere distinctio ea praesentium totam quia ipsam quibusdam iusto at.</p>
+
+                        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt.Lorem
+                            ipsum dolor sit amet consectetur adipisicing elit. Veniam quam cupiditate hic? Temporibus esse veniam, reiciendis maiores sequi aut quo ea. Ducimus consequatur sunt recusandae quisquam sapiente? Nulla, explicabo sunt. </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque natus similique non fugit, perferendis obcaecati quaerat consequuntur a! Consequuntur, id sed. Officiis hic officia vitae atque voluptatum in esse libero? Lorem ipsum dolor sit amet, consectetur
+                            adipisicing elit. Quisquam debitis ipsa omnis fugiat voluptatibus eum eveniet temporibus quia autem quos illum, possimus ipsum sapiente rerum eius accusantium amet? Porro, enim.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-content scroll">
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">1. Allgemeines</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p> 1.1 &nbsp;Der Auftragnehmer erbringt sämtliche Leistungen ausschließlich unter Zugrundelegung dieser Allgemeinen Geschäftsbedingungen (AGB). AGB des Auftraggebers finden, auch wenn der Auftragnehmer nicht ausdrücklich widersprochen
+                            hat, keine Anwendung.</p>
+                        <p>
+                            1.2 &nbsp; Diese AGB gelten auch dann, wenn der Auftragnehmer in Kenntnis entgegenstehender oder von seinen Bedingungen abweichender Bedingungen des Auftraggebers die Leistung an den Auftraggeber vorbehaltlos ausführt. In diesen Fällen gilt die Annahme
+                            der Leistungen durch den Auftraggeber als Anerkennung dieser AGB unter gleichzeitigem und hiermit vorab angenommenen Verzicht auf die Geltung seiner eigenen AGB.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">2. Angebote und Preise</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>2.1 &nbsp; Angebote sind stets frei bleibend. Ein Vertrag kommt erst durch schriftliche Bestätigung der Beauftragung seitens des Auftragnehmers zustande. Erfolgt die Leistung durch den Auftragnehmer, ohne dass dem Auftraggeber
+                            vorher eine Auftragsbestätigung zuging, so kommt der Vertrag mit Beginn der Ausführung der Leistung zustande.</p>
+                        <p>2.2 &nbsp; Die Leistung erfolgt zu den Preisen und besonderen Bedingungen des jeweiligen Dienstvertrages und Angebots. Die darin genannten Preise sind verbindlich.
+                        </p>
+                        <p>2.3 &nbsp; Soweit im Einzelfall nichts Anderes vereinbart wird, verstehen sich die Preise netto zuzüglich der jeweils gesetzlich geschuldeten Umsatzsteuer von zurzeit 16 bzw. 19 %.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">3. Termine und Fristen</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>3.1 &nbsp; Termine und Fristen sind verbindlich, wenn sie vom Auftragnehmer und dem Auftraggeber im Einzelfall schriftlich als verbindlich vereinbart worden sind. Die Leistungsfrist beginnt, soweit im Einzelfall nichts Anderes
+                            vereinbart ist, mit Vertragsschluss bzw. Absendung der Auftragsbestätigung. Die Vereinbarung eines festen Leistungstermins steht unter dem Vorbehalt, dass der Auftragnehmer seinerseits die für ihn notwendigen Leistungen seiner
+                            jeweiligen Vorlieferanten rechtzeitig und vertragsgemäß erhält.</p>
+                        <p>3.2 &nbsp; Ist die Nichteinhaltung einer bestimmten Leistungszeit auf Ereignisse zurückzuführen, die der Auftragnehmer nicht zu vertreten hat (einschließlich Streik oder Aussperrung), verschieben sich die Leistungstermine um
+                            die Dauer der Störung einschließlich einer angemessenen Anlaufphase.
+                        </p>
+                        <p>3.3 &nbsp; Gerät der Auftragnehmer mit der Leistungserbringung ganz oder teilweise in Verzug, ist der Schadens- und Aufwendungsersatz des Auftraggebers wegen Verzug für jede vollendete Woche auf 0,5 % des Preises für den Teil
+                            der Leistung, der aufgrund des Verzugs nicht genutzt werden kann, begrenzt. Die Verzugshaftung ist insgesamt begrenzt auf 5 % des Gesamtpreises des jeweiligen Auftrages. Das gilt nicht, soweit der Verzug auf grober Fahrlässigkeit
+                            oder Vorsatz des Auftragnehmers beruht.
+                        </p>
+                        <p>3.4 &nbsp; Bei einer Verzögerung der Leistung steht dem Auftraggeber im Rahmen der gesetzlichen Bestimmungen ein Rücktrittsrecht nur zu, wenn die Verzögerung vom Auftragnehmer zu vertreten ist. Macht der Auftraggeber wegen der
+                            Verzögerung begründete Schadens- oder Aufwendungsersatz statt der Leistung geltend, so ist er berechtigt, für jede vollendete Woche der Verzögerung 1 % des Preises für den Teil der Leistung zu verlangen, der aufgrund der
+                            Verzögerung nicht genutzt werden kann, jedoch insgesamt höchstens 10 % des Gesamtpreises des jeweiligen Auftrages. Ziffer 3.3 S. 3 gilt entsprechend.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">4. Dienstleistung/Vertragsgegenstand</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>4.1 &nbsp; Inhalt und Beschaffenheit sowie Umfang der vom Auftragnehmer geschuldeten Leistungen ergeben sich, soweit im Einzelfall nichts Anderes vereinbart ist, aus dem jeweiligen Dienstleistungsvertrag oder Angebot und der Leistungsbeschreibung.
+                            Der Auftragnehmer erbringt die Dienstleistung nach den Grundsätzen der ordnungsgemäßen Berufsausübung.</p>
+                        <p>4.2 &nbsp; Der Vertragsgegenstand kann in einer einmaligen, auch in Teilen zu erbringenden Leistung bestehen oder auf Dauer angelegt sein.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">5. Durchführung der Dienstleistung</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>5.1 &nbsp; Ort der Leistungserbringung ist, soweit im Einzelfall nichts Anderes vereinbart ist, der Sitz des Auftragnehmers.</p>
+                        <p>5.2 &nbsp; Die mit der Durchführung der Leistung befassten Mitarbeiter des Auftragnehmers werden von diesem ausgesucht. Der Auftraggeber hat keinen Anspruch auf die Leistungserbringung durch bestimmte Mitarbeiter des Auftragnehmers.
+                            Bei der Auswahl wird der Auftragnehmer die Interessen des Auftraggebers angemessen berücksichtigen. Der Auftragnehmer erbringt die Leistungen durch geeignetes Personal, das für die Erbringung der vereinbarten Leistungen qualifiziert
+                            ist. Wird eine vom Auftragnehmer zur Vertragserfüllung eingesetzte Person durch eine andere ersetzt und ist eine Einarbeitung erforderlich, so geht diese zulasten des Auftragnehmers.
+                        </p>
+                        <p>5.3 &nbsp; GDer Auftragnehmer bestimmt – nach Maßgabe des Vertragsgegenstandes – die Art und Weise der Leistungserbringung.
+                        </p>
+                        <p>5.4 &nbsp; Der Auftraggeber ist gegenüber dem Auftragnehmer bzw. den mit der Leistungserbringung befassten Mitarbeitern des Auftragnehmers mit Ausnahme des im Rahmen von Ziffer 12.3 vereinbarten nicht weisungsbefugt.
+                        </p>
+                        <p>5.5 &nbsp; Sofern der Auftragnehmer die Ergebnisse der Dienstleistung schriftlich darzustellen hat, ist nur die schriftliche Darstellung maßgebend.
+                        </p>
+                        <p>5.6 &nbsp; Die Leistung des Arbeitnehmers gilt als abgenommen, wenn Rügen nicht unverzüglich, spätestens jedoch innerhalb von 14 Tagen schriftlich nach Empfang des monatlichen Reports, dem Auftragnehmer zugegangen sind.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">6. Pflichten des Auftraggebers</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>6.1 &nbsp; Der Auftraggeber benennt dem Auftragnehmer einen fachkundigen Ansprechpartner, der während der Durchführung des Vertrages für den Auftraggeber verbindliche Entscheidungen treffen kann. Dieser hat für den Austausch
+                            notwendiger Informationen unverzüglich zur Verfügung zu stehen und bei den für die Vertragsdurchführung notwendigen Entscheidungen mitzuwirken. Erforderliche Entscheidungen des Auftraggebers sind vom Ansprechpartner unverzüglich
+                            herbeizuführen und von den Parteien im unmittelbaren Anschluss gemeinsam schriftlich zu dokumentieren.</p>
+                        <p>6.2 &nbsp; Der Auftraggeber trägt Sorge dafür, dass dem Auftragnehmer die für die Erbringung der Leistung notwendigen Unterlagen, Informationen usw., soweit diese nicht vom Auftragnehmer geschuldet sind, vollständig, richtig,
+                            rechtzeitig und kostenfrei zur Verfügung stehen. Darüber hinaus sorgt der Auftraggeber für deren Aktualisierung. Der Auftragnehmer darf, außer soweit er Gegenteiliges erkennt oder erkennen muss, von der Vollständigkeit und
+                            Richtigkeit dieser Unterlagen, Informationen usw. ausgehen.
+                        </p>
+                        <p>6.3 &nbsp; Der Auftraggeber ist verpflichtet, den Auftragnehmer soweit erforderlich zu unterstützen und alle zur ordnungsgemäßen Durchführung der Beauftragung erforderlichen Voraussetzungen zu schaffen.
+                        </p>
+                        <p>6.4 &nbsp; Soweit nichts anderes vereinbart, wird der Auftraggeber alle vom Auftragnehmer übergebenen Unterlagen, Informationen usw. bei sich so verwahren, dass diese bei Beschädigungen oder Verlust rekonstruiert werden können.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">7. Nutzungsrechte</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>7.1 &nbsp; An den Dienstleistungsergebnissen, die der Auftragnehmer im Rahmen des Vertrages erbracht und dem Auftraggeber übergeben hat, räumt er dem Auftraggeber, soweit nichts anderes vereinbart ist, das nicht ausschließliche
+                            und nicht übertragbare Recht ein, diese bei sich für eigene interne Zwecke im Rahmen des vertraglich vorausgesetzten Einsatzzwecks auf Dauer zu nutzen. Diese Rechte schließen die vereinbarten Zwischenergebnisse, Schulungsunterlagen
+                            und Hilfsmittel ein. Im Übrigen verbleiben alle Rechte beim Auftragnehmer. Soweit dem Auftraggebern Nutzungsrechte eingeräumt werden, sind diese bis zur Begleichung der geschuldeten Vergütung nur vorläufig eingeräumt und durch
+                            den Auftragnehmer frei widerruflich. Widerruft der Auftragnehmer das Nutzungsrecht, so liegt nur dann ein Rücktritt vom bzw. eine Kündigung des Vertrages vor, wenn der Auftragnehmer dies ausdrücklich erklärt.</p>
+                        <p>7.2 &nbsp; Dem Auftraggeber ist bekannt, dass im Rahmen des Zeitstempel Service (timestamping) via blockchain diverse Daten (wie z.B. HASH, Private Key, Transaktionsadresse, Transaktions ID) generiert werden. Über diese und andere
+                            durch den Nachweisprozess entstehende bzw. vorliegende Daten (NICHT über die Originaldokumente) hat der Auftragnehmer die freie Verfügungsbefugnis.
+                        </p>
+                        <p>7.3 &nbsp; Der Auftragnehmer kann das Einsatzrecht des Auftraggebers widerrufen, wenn dieser nicht unerheblich gegen Einsatzbeschränkungen oder sonstige Regelungen zum Schutz vor unberechtigter Nutzung verstößt. Der Widerruf erfolgt
+                            durch schriftliche Widerruferklärung; Ziffer 12.1 S. 3 gilt entsprechend. Der Auftragnehmer hat dem Auftraggeber vor dem Widerruf eine Nachfrist zur Abhilfe zu setzen. Im Wiederholungsfalle und bei besonderen Umständen, die
+                            unter Abwägung der beiderseitigen Interessen den sofortigen Widerruf rechtfertigen, kann der Auftragnehmer den Widerruf auch ohne Fristsetzung aussprechen. Der Auftraggeber hat dem Auftragnehmer die Einstellung der Nutzung
+                            innerhalb von sieben Kalendertagen nach Zugang der Widerrufserklärung schriftlich zu bestätigen.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">8. Laufzeit</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>8.1 &nbsp; Der Vertrag wird i.d.R. für die Laufzeit eines Jahres abgeschlossen. Sofern er nicht einen Monat vor Ablauf von 12 Monaten gekündigt wird, verlängert er sich automatisch um ein weiteres Jahr.</p>
+                        <p>8.2 &nbsp; Ein Rücktritt vom Vertrag ist ausgeschlossen. Der Vertrag kann jedoch sowohl vom Auftragnehmer als auch vom Auftraggebern ohne Einhaltung einer Frist aus wichtigem Grund gekündigt werden.
+                        </p>
+                        <p>8.3 &nbsp;Kündigungserklärungen sind nur schriftlich wirksam.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">9. Vergütung, Zahlungen, Aufrechnung und Zurückbehaltung</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>9.1 &nbsp; Soweit im Einzelfall nichts Anderes vereinbart ist, sind Zahlungen grundsätzlich innerhalb von vierzehn Kalendertagen nach Rechnungsdatum ohne jeden Abzug fällig. Soweit zwischen den Parteien eine Abrechnung nach Aufwand
+                            / auf Stundenbasis vereinbart worden ist, gelten Aufwands-/Stundennachweise als genehmigt, wenn und soweit der Auftraggeber nicht innerhalb von zwei Wochen nach Erhalt detailliert widerspricht und der Auftragnehmer im Aufwands-
+                            /Stundennachweis auf die Genehmigungsfiktion hingewiesen hat.</p>
+                        <p>9.2 &nbsp; Gleicht der Auftraggeber eine Forderung zum vereinbarten Fälligkeitstermin ganz oder teilweise nicht aus, ist der Auftragnehmer berechtigt, getroffene Skontovereinbarungen sowie Vereinbarungen über Zahlungsziele für
+                            alle zu diesem Zeitpunkt offenen Forderungen zu widerrufen und diese sofort fällig zu stellen. Der Auftragnehmer ist ferner berechtigt, weitere Leistungen nur gegen Vorkasse oder eine Sicherheit in Form einer Erfüllungsbürgschaft
+                            eines in der Europäischen Union zugelassenen Kreditinstituts oder Kreditversicherers vorzunehmen.
+                        </p>
+                        <p>9.3 &nbsp;Eine Zahlung gilt erst dann als geleistet, wenn sie auf einem der Bankkonten des Auftragnehmers gutgeschrieben ist.
+
+                        </p>
+                        <p>9.4 &nbsp;Der Auftragnehmer ist berechtigt, bei Fälligkeit Zinsen in Höhe von 5 Prozentpunkten über dem Basiszinssatz zu berechnen. Bei Verzug ist der Auftragnehmer berechtigt, Zinsen in Höhe von 8 Prozentpunkten über dem Basiszinssatz
+                            zu verlangen. Das Recht des Auftragnehmers, einen höheren Schaden geltend zu machen, bleibt unberührt.
+
+                        </p>
+                        <p>9.5 &nbsp;Der Auftraggeber kann nur mit unbestrittenen oder rechtskräftig festgestellten Forderungen aufrechnen oder ein Zurückbehaltungsrecht ausüben. Die Ausübung eines Zurückbehaltungsrechts durch den Auftraggeber, mit einem
+                            Gegenrecht, das nicht auf einem Recht aus dem diesen Allgemeinen Geschäftsbedingungen zugrundeliegenden Vertrag beruht, ist ausgeschlossen.
+
+                        </p>
+                        <p>9.6 &nbsp;Der Auftragnehmer kann bei Zahlungsverzug des Auftraggebers im Rahmen der gesetzlichen Bestimmungen vom Vertrag zurücktreten.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">10. Leistungsstörungen</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>10.1 &nbsp; Wird die Dienstleistung nicht vertragsgemäß erbracht und hat der Auftragnehmer dies zu vertreten (Leistungsstörung), so ist er verpflichtet, die Dienstleistung ganz oder in Teilen ohne Mehrkosten für den Auftraggeber
+                            innerhalb angemessener Frist vertragsgemäß zu erbringen, es sei denn, dies ist nur mit unverhältnismäßigem Aufwand möglich. Diese Pflicht des Auftragnehmers besteht, soweit nichts Anderes vereinbart ist, nur, wenn der Auftraggeber
+                            die Leistungsstörung schriftlich und unverzüglich, spätestens aber bis zum Ablauf von zwei Wochen nach Kenntnis der nicht vertragsgemäßen Leistungserbringung, rügt. Der Auftraggeber hat dazu die Dienstleistungserbringung
+                            durch den Auftragnehmer angemessen zu beobachten.</p>
+                        <p>10.2 &nbsp; Hat der Auftragnehmer eine nicht vertragsgemäße Leistung zu vertreten und gelingt ihm die Erbringung der vertragsgemäßen Leistung auch innerhalb der vom Auftraggebern gesetzten Nachfrist aus von ihm zu vertretenden
+                            Gründen nicht, so ist der Auftraggeber berechtigt, den Vertrag fristlos zu kündigen. Das Recht zur außerordentlichen Kündigung aus wichtigem Grund bleibt unberührt.
+                        </p>
+                        <p>10.3 &nbsp; Im Fall einer Kündigung gem. Ziffer 10.2 hat der Auftragnehmer Anspruch auf Vergütung für die bis zum Wirksamwerden der Kündigung erbrachten Leistungen. Der Anspruch entfällt für solche Leistungen, in Bezug auf
+                            welche der Auftraggeber innerhalb von zwei Wochen nach dem Zugang der Kündigungserkl.rung qualifiziert darlegt, dass sie für ihn nicht nutzbar und ohne Interesse sind.
+                        </p>
+                        <p>10.4 &nbsp;Hat der Auftragnehmer eine nicht vertragsgemäße Leistung nicht zu vertreten, wird er dem Auftraggeber im Rahmen seiner Möglichkeiten deren vertragsgemäße Erbringung anbieten. Nimmt der Auftraggeber dieses Angebot an,
+                            kann der Auftragnehmer damit verbundenen Aufwand und nachgewiesene Kosten geltend machen.
+                        </p>
+                        <p>10.5 &nbsp;Die Verjährungsfrist für Ansprüche des Auftraggebers wegen Leistungsstörungen beträgt ein Jahr ab dem gesetzlichen Verjährungsbeginn. Die gesetzlichen Fristen bleiben unberührt, bei einer vorsätzlichen oder grob fahrlässigen
+                            Pflichtverletzung des Auftragnehmers, insbesondere seiner gesetzlichen Vertreter oder Erfüllungsgehilfen, bei Arglist sowie in den Fällen der Verletzung des Lebens, des Körpers oder der Gesundheit.
+                        </p>
+                        <p>10.6 &nbsp;Für etwaige über vorstehend Ziffer 10.1–10.3 hinausgehende Aufwendungs- und Schadensersatzansprüche gilt Ziffer 11.
+                        </p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">11. Haftung</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>11.1 &nbsp; Der Auftragnehmer haftet auf Schadensersatz: - für die von ihm sowie seinen gesetzlichen Vertretern oder Erfüllungsgehilfen vorsätzlich oder grob fahrlässig verursachten Schäden, - und nach dem Produkthaftungsgesetz</p>
+                        <p>11.2 &nbsp; Der Auftragnehmer haftet bei leichter Fahrlässigkeit, soweit er oder seine gesetzlichen Vertreter oder Erfüllungsgehilfen eine wesentliche Vertragspflicht (sog. Kardinalpflicht) verletzt haben, deren Erfüllung die
+                            ordnungsgemäße Durchführung des Vertrages überhaupt erst ermöglicht bzw. deren Verletzung die Erreichung des Vertragszwecks gefährdet und auf deren Einhaltung der Auftraggeber regelmäßig vertrauen darf. Im Übrigen ist die
+                            Haftung bei leichter Fahrlässigkeit ausgeschlossen. Die Haftung gemäß Ziffer 11.1 bleibt von diesem Absatz unberührt. Soweit der Auftragnehmer für leichte Fahrlässigkeit haftet, ist die Haftung bei Sach- und Vermögensschäden
+                            auf den vertragstypischen und vorhersehbaren Schaden beschränkt. Die Haftung für sonstige, entfernte Folgeschäden ist ausgeschlossen. Für einen einzelnen Schadensfall wird die Haftung auf den Vertragswert begrenzt.</p>
+                        <p>11.3 &nbsp; Für die Verjährung gilt Ziffer 10.5 entsprechend.</p>
+                        <p>11.4 &nbsp;Bei Verlust von Daten haftet der Auftragnehmer nur für denjenigen Aufwand, der für die Wiederherstellung der Daten bei ordnungsgemäßer Datensicherung durch den Auftraggeber erforderlich ist. Bei leichter Fahrlässigkeit
+                            des Auftragnehmers tritt diese Haftung nur ein, wenn der Auftraggeber unmittelbar vor der zum Datenverlust führenden Maßnahme eine ordnungsgemäße Datensicherung durchgeführt hat.</p>
+                        <p>11.5 &nbsp;Für Aufwendungsersatzansprüche und sonstige Haftungsansprüche des Auftraggebers gegen den Auftragnehmer gilt Ziffer 11.1–11.3 entsprechend.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">12. Datenschutz</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>12.1 &nbsp; Auftraggeber und Auftragnehmer werden die jeweils anwendbaren, insbesondere die in Deutschland gültigen datenschutzrechtlichen Bestimmungen beachten und ihre im Zusammenhang mit dem Vertrag eingesetzten Beschäftigten
+                            auf das Datengeheimnis verpflichten, soweit diese nicht bereits allgemein entsprechend verpflichtet sind.</p>
+                        <p>12.2 &nbsp; Der Auftragnehmer und der Auftraggeber sind verpflichtet, über Geschäftsund Betriebsgeheimnisse sowie über sonstige als vertraulich bezeichnete Informationen, die im Zusammenhang mit ihrem Vertragsverhältnis bzw.
+                            der daraus resultierenden Vertragsbeziehung bekannt werden, Stillschweigen zu wahren. Die Weitergabe solcher Informationen an Personen, die nicht an dem Abschluss, der Durchführung oder der Abwicklung des Vertragsverhältnisses
+                            beteiligt sind, darf nur mit schriftlicher Einwilligung des Vertragspartners erfolgen.
+                        </p>
+                        <p>
+                            Soweit nichts Anderes vereinbart ist, endet diese Verpflichtung nach Ablauf von fünf Jahren ab Bekanntwerden der jeweiligen Information, nicht jedoch vor Beendigung eines zwischen dem Auftragnehmer und dem Auftraggeber bestehenden Vertragsverhältnisses.
+                            Die Vertragspartner werden diese Verpflichtungen auch ihren Mitarbeitern und eventuell eingesetzten Dritten auferlegen.</p>
+                        <p>12.3 &nbsp;Die vom Auftraggeber auf den Servern des Auftragnehmers eingestellten Daten werden in Deutschland gespeichert.</p>
+                        <p>12.4 &nbsp;Der Auftragnehmer ist dafür verantwortlich, etwaige personenbezogene Daten nur so lange aufzubewahren, bis sie zur Erreichung des angestrebten Zwecks erforderlich sind bzw. wie es die gesetzlichen Vorschriften vorsehen;
+                            es sei denn der Auftragnehmer hat vorab die Einwilligung des Auftraggebers zur Verarbeitung der Daten eingeholt.</p>
+                        <p>12.5 &nbsp;Erhebt, verarbeitet oder nutzt der Auftragnehmer personenbezogene Daten der Auftraggeber über die Hardware, Software und/oder den Hotspot, so steht er dafür ein, dass er dazu nach den anwendbaren, insb. datenschutzrechtlichen
+                            und wettbewerbsrechtlichen Bestimmungen berechtigt ist.</p>
+                        <p>12.6 &nbsp;Dem Auftragnehmer und dem Auftraggeber ist bekannt, dass eine elektronische und unverschlüsselte Kommunikation (z. B. per E-Mail) mit Sicherheitsrisiken behaftet ist. Bei dieser Art der Kommunikation werden weder der
+                            Auftragnehmer noch der Auftraggeber daher Ansprüche geltend machen, die durch das Fehlen einer Verschlüsselung begründet sind, außer soweit zuvor eine Verschlüsselung vereinbart worden ist.</p>
+                        <p>12.7 &nbsp;Im Rahmen des Zeitstempel Service (timestamping) via blockchain werden beim Auftragnehmer diverse Daten (wie z.B. HASH, Private Key, Transaktionsadresse, Transaktions ID) generiert. Diese und andere durch den Nachweisprozess
+                            entstehenden bzw. vorliegenden Daten (NICHT die Originaldokumente) werden beim Auftragnehmer dauerhaft ablegt, verarbeitet und ohne weitere Zustimmung bei Bedarf weitergegeben.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">13. Vertragsänderungen</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>Änderungen und Ergänzungen sämtlicher zwischen den Parteien geschlossener Verträge sollen nur schriftlich vereinbart werden. Mündliche Absprachen gelten nur, wenn sie binnen sieben Tagen schriftlich durch den Auftragnehmer bestätigt
+                            werden. Ein Fax bzw. eine E-Mail genügt dem Schriftformerfordernis.</p>
+                    </div>
+                </div>
+                <div class="faq-contetn ">
+                    <div class="faq-titleBlock ">
+                        <h4 class="faq-title ">14. Erfüllungsort, Recht und Gerichtsstand</h4>
+                    </div>
+                    <div class="faq-blockText ">
+                        <p>14.1 &nbsp; Erfüllungsort für alle Verpflichtungen aus den Vertragsverhältnissen der Parteien ist der Sitz des Auftragnehmers.</p>
+                        <p>14.2 &nbsp; Sämtliche Vertragsverhältnisse der Parteien unterliegen ausschließlich dem Recht der Bundesrepublik Deutschland.</p>
+                        <p>14.3 &nbsp;Gerichtsstand für alle Rechtsstreitigkeiten aus den Vertragsverhältnissen der Parteien sowie für Streitigkeiten in Bezug auf das Entstehen und die Wirksamkeit dieser Vertragsverhältnisse ist gegenüber Kaufleuten,
+                            einer juristischen Person des öffentlichen Rechts oder einem öffentlich-rechtlichen Sondervermögen der Sitz des Auftragnehmers. Der Auftragnehmer ist jedoch berechtigt, den Auftraggeber an seinem Sitz zu verklagen.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-content scroll">
+                <h2 class="tab-title "> Impressum</h2>
+                <div id="impressum-content">
+                    <p><strong>IPBee GmbH</strong><br> Froschkönigweg 6<br> 21244 Buchholz<br> Germany
+                    </p>
+                    <p>Geschäftsführung: Jan F. Timme<br>
+                        <span class="st">HRB 205899</span>, Handelsregister Tostedt</p>
+                    <p>Tel.: +49-40-87409589<br> info@ip-bee.de
+                        <br>
+                        <a class="link" href="http://ip-bee.de">IPBee Homepage</a></p>
+                    <p>VAT-ID: DE 310303058</p>
+                    <h2>DISCLAIMER/ HAFTUNGSERKLÄRUNG</h2>
+                    <p><strong>1. Inhalt des Onlineangebotes</strong></p>
+                    <p>Der Autor übernimmt keinerlei Gewähr für die Aktualität, Korrektheit, Vollständigkeit oder Qualität der bereitgestellten Informationen. Haftungsansprüche gegen den Autor, welche sich auf Schäden materieller oder ideeller Art beziehen,
+                        die durch die Nutzung oder Nichtnutzung der dargebotenen Informationen bzw. durch die Nutzung fehlerhafter und unvollständiger Informationen verursacht wurden, sind grundsätzlich ausgeschlossen, sofern seitens des Autors kein nachweislich
+                        vorsätzliches oder grob fahrlässiges Verschulden vorliegt. </p>
+                    <p> Alle Angebote sind unverbindlich und freibleibend.<br> Der Autor behält es sich ausdrücklich vor, Teile der Seiten oder das gesamte Angebot ohne gesonderte Ankündigung zu verändern, zu ergänzen, zu löschen oder die Veröffentlichung
+                        zeitweise oder endgültig einzustellen. </p>
+                    <p><strong>2. Verweise und Links</strong></p>
+                    <p> Bei direkten oder indirekten Verweisen auf fremde Webseiten, die außerhalb des Verantwortungsbereiches des Autors liegen, ist eine Haftungsverpflichtung ausgeschlossen. Der Autor erklärt hiermit ausdrücklich, dass zum Zeitpunkt der
+                        Linksetzung keine illegalen Inhalte auf den zu verlinkenden Seiten erkennbar waren. </p>
+                    <p>Auf die aktuelle und zukünftige Gestaltung, die Inhalte oder die Urheberschaft der verlinkten/verknüpften Seiten hat der Autor keinerlei Einfluss. Diese Feststellung gilt für alle innerhalb des eigenen Internetangebotes gesetzten Links
+                        und Verweise sowie für Fremdeinträge in vom Autor eingerichteten Gästebüchern, Diskussionsforen, Linkverzeichnissen, Mailinglisten und in allen anderen Formen von Datenbanken, auf deren Inhalt externe Schreibzugriffe möglich sind.
+                    </p>
+                    <p> Für illegale, fehlerhafte oder unvollständige Inhalte und insbesondere für Schäden, die aus der Nutzung oder Nichtnutzung solcherart dargebotener Informationen entstehen, haftet allein der Anbieter der Seite, auf welche verwiesen wurde,
+                        nicht derjenige, der über Links auf die jeweilige Veröffentlichung lediglich verweist. </p>
+                    <p><strong>3. Urheber- und Kennzeichenrecht</strong><br> Alle innerhalb des Internetangebotes genannten und ggf. durch Dritte geschützten Marken- und Warenzeichen unterliegen uneingeschränkt den Bestimmungen des jeweils gültigen Kennzeichenrechts
+                        und den Besitzrechten der jeweiligen eingetragenen Eigentümer. Das Copyright für veröffentlichte, vom Autor selbst erstellte Objekte bleibt allein beim Autor der Seiten. Eine Vervielfältigung oder Verwendung solcher Grafiken, Tondokumente,
+                        Videosequenzen und Texte in anderen elektronischen oder gedruckten Publikationen ist ohne ausdrückliche Zustimmung des Autors nicht gestattet.</p>
+                    <p><strong>4. Umfang der Verarbeitung personenbezogener Daten</strong></p>
+                    <p>Wir verarbeiten personenbezogene Daten unserer Nutzer grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Die Verarbeitung personenbezogener Daten
+                        unserer Nutzer erfolgt regelmässig nur nach Einwilligung des Nutzers. Eine Ausnahme gilt in solchen Fällen, in denen eine vorherige Einholung einer Einwilligung aus tatsächlichen Gründen nicht möglich ist und die Verarbeitung der
+                        Daten durch gesetzliche Vorschriften gestattet ist.</p>
+                    <p><strong>Rechtsgrundlage für die Verarbeitung personenbezogener Daten</strong></p>
+                    <p>Soweit wir für Verarbeitungsvorgänge personenbezogener Daten eine Einwilligung der betroffenen Person einholen, dient Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;a EU-Datenschutzgrundverordnung (DSGVO) als Rechtsgrundlage.</p>
+                    <p>Bei der Verarbeitung von personenbezogenen Daten, die zur Erfüllung eines Vertrages, dessen Vertragspartei die betroffene Person ist, erforderlich ist, dient Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;b DSGVO als Rechtsgrundlage. Dies gilt
+                        auch für Verarbeitungsvorgänge, die zur Durchführung vorvertraglicher Maßnahmen erforderlich sind.</p>
+                    <p>Soweit eine Verarbeitung personenbezogener Daten zur Erfüllung einer rechtlichen Verpflichtung erforderlich ist, der unser Unternehmen unterliegt, dient Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;c DSGVO als Rechtsgrundlage.</p>
+                    <p>Für den Fall, dass lebenswichtige Interessen der betroffenen Person oder einer anderen natürlichen Person eine Verarbeitung personenbezogener Daten erforderlich machen, dient Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;d DSGVO als Rechtsgrundlage.</p>
+                    <p>Ist die Verarbeitung zur Wahrung eines berechtigten Interesses unseres Unternehmens oder eines Dritten erforderlich und überwiegen die Interessen, Grundrechte und Grundfreiheiten des Betroffenen das erstgenannte Interesse nicht, so
+                        dient Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;f DSGVO als Rechtsgrundlage für die Verarbeitung.</p>
+                    <p><strong>Datenlöschung und Speicherdauer</strong></p>
+                    <p>Die personenbezogenen Daten der betroffenen Person werden gelöscht oder gesperrt, sobald der Zweck der Speicherung entfällt. Eine Speicherung kann darüber hinaus erfolgen, wenn dies durch den europäischen oder nationalen Gesetzgeber
+                        in unionsrechtlichen Verordnungen, Gesetzen oder sonstigen Vorschriften, denen der Verantwortliche unterliegt, vorgesehen wurde. Eine Sperrung oder Löschung der Daten erfolgt auch dann, wenn eine durch die genannten Normen vorgeschriebene
+                        Speicherfrist abläuft, es sei denn, dass eine Erforderlichkeit zur weiteren Speicherung der Daten für einen Vertragsabschluss oder eine Vertragserfüllung besteht.</p>
+                    <p><strong>Verwendung von Cookies</strong></p>
+                    <p>IPBee verwendet keine Cookies. Cookies von Suchmaschinenbetreibern können eventuell automatisch gesetzt werden.</p>
+                    <p><strong>Kontaktformular und E-Mail-Kontakt</strong></p>
+                    <p><strong><em>Beschreibung und Umfang der Datenverarbeitung</em></strong></p>
+                    <p>Auf unserer Internetseite ist ein Kontaktformular vorhanden, welches für die elektronische Kontaktaufnahme genutzt werden kann. Nimmt ein Nutzer diese Möglichkeit wahr, so werden die in der Eingabemaske eingegeben Daten an uns übermittelt
+                        und gespeichert. Diese Daten sind:<br> Name, Mail-Adresse, Betreff, Nachricht<br> Wird die Nachricht ausdrücklich als „Kundenstimme“ an uns übersendet, kann sie ganz oder in Auszügen mit Namen auf der Webseite veröffentlicht werden.</p>
+                    <p><strong>Zweck der Datenverarbeitung</strong></p>
+                    <p>Die Verarbeitung der personenbezogenen Daten aus der Eingabemaske dient uns allein zur Bearbeitung der Kontaktaufnahme. Im Falle einer Kontaktaufnahme per E-Mail liegt hieran auch das erforderliche berechtigte Interesse an der Verarbeitung
+                        der Daten.</p>
+                    <p>Die sonstigen während des Absendevorgangs verarbeiteten personenbezogenen Daten dienen dazu, einen Missbrauch des Kontaktformulars zu verhindern und die Sicherheit unserer informationstechnischen Systeme sicherzustellen.</p>
+                    <p><strong>Dauer der Speicherung</strong></p>
+                    <p>Die Daten werden gelöscht, sobald sie für die Erreichung des Zweckes ihrer Erhebung nicht mehr erforderlich sind. Für die personenbezogenen Daten aus der Eingabemaske des Kontaktformulars und diejenigen, die per E-Mail übersandt wurden,
+                        ist dies dann der Fall, wenn die jeweilige Konversation mit dem Nutzer beendet ist. Beendet ist die Konversation dann, wenn sich aus den Umständen entnehmen lässt, dass der betroffene Sachverhalt abschließend geklärt ist.<br> Die
+                        während des Absendevorgangs über das Kontaktformular zusätzlich erhobenen personenbezogenen Daten werden spätestens nach einer Frist von sieben Tagen gelöscht.</p>
+                    <p><strong>Widerspruchs- und Beseitigungsmöglichkeit</strong></p>
+                    <p>Der Nutzer hat jederzeit die Möglichkeit, seine Einwilligung zur Verarbeitung der personenbezogenen Daten zu widerrufen. Nimmt der Nutzer per E-Mail Kontakt mit uns auf, so kann er der Speicherung seiner personenbezogenen Daten jederzeit
+                        widersprechen. In einem solchen Fall kann die Konversation nicht fortgeführt werden.</p>
+                    <p>Werden personenbezogene Daten von Ihnen verarbeitet, sind Sie Betroffener i.S.d. DSGVO und es stehen Ihnen folgende Rechte gegenüber dem Verantwortlichen zu:</p>
+                    <p><strong>Auskunftsrecht</strong></p>
+                    <p>Sie können von dem Verantwortlichen eine Bestätigung darüber verlangen, ob personenbezogene Daten, die Sie betreffen, von uns verarbeitet werden.</p>
+                    <p>Liegt eine solche Verarbeitung vor, können Sie von dem Verantwortlichen über folgende Informationen Auskunft verlangen:</p>
+                    <p>(1) die Zwecke, zu denen die personenbezogenen Daten verarbeitet werden;</p>
+                    <p>(2) die Kategorien von personenbezogenen Daten, welche verarbeitet werden;</p>
+                    <p>(3) die Empfänger bzw. die Kategorien von Empfängern, gegenüber denen die Sie betreffenden personenbezogenen Daten offengelegt wurden oder noch offengelegt werden;</p>
+                    <p>(4) die geplante Dauer der Speicherung der Sie betreffenden personenbezogenen Daten oder, falls konkrete Angaben hierzu nicht möglich sind, Kriterien für die Festlegung der Speicherdauer;</p>
+                    <p>(5) das Bestehen eines Rechts auf Berichtigung oder Löschung der Sie betreffenden personenbezogenen Daten, eines Rechts auf Einschränkung der Verarbeitung durch den Verantwortlichen oder eines Widerspruchsrechts gegen diese Verarbeitung;</p>
+                    <p>(6) das Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde;</p>
+                    <p>(7) alle verfügbaren Informationen über die Herkunft der Daten, wenn die personenbezogenen Daten nicht bei der betroffenen Person erhoben werden;</p>
+                    <p>(8) das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling gemäß Art.&nbsp;22 Abs.&nbsp;1 und 4 DSGVO und – zumindest in diesen Fällen – aussagekräftige Informationen über die involvierte Logik sowie die Tragweite
+                        und die angestrebten Auswirkungen einer derartigen Verarbeitung für die betroffene Person.</p>
+                    <p>Ihnen steht das Recht zu, Auskunft darüber zu verlangen, ob die Sie betreffenden personenbezogenen Daten in ein Drittland oder an eine internationale Organisation übermittelt werden. In diesem Zusammenhang können Sie verlangen, über
+                        die geeigneten Garantien gem. Art.&nbsp;46 DSGVO im Zusammenhang mit der Übermittlung unterrichtet zu werden.</p>
+                    <p>Sie haben ein Recht auf Berichtigung und/oder Vervollständigung gegenüber dem Verantwortlichen, sofern die verarbeiteten personenbezogenen Daten, die Sie betreffen, unrichtig oder unvollständig sind. Der Verantwortliche hat die Berichtigung
+                        unverzüglich vorzunehmen.</p>
+                    <p><strong>Recht auf Löschung</strong></p>
+                    <p>Löschungspflicht</p>
+                    <p>Sie können von dem Verantwortlichen verlangen, dass die Sie betreffenden personenbezogenen Daten unverzüglich gelöscht werden, und der Verantwortliche ist verpflichtet, diese Daten unverzüglich zu löschen, sofern einer der folgenden
+                        Gründe zutrifft:</p>
+                    <p>(1) Die Sie betreffenden personenbezogenen Daten sind für die Zwecke, für die sie erhoben oder auf sonstige Weise verarbeitet wurden, nicht mehr notwendig.</p>
+                    <p>(2) Sie widerrufen Ihre Einwilligung, auf die sich die Verarbeitung gem. Art.&nbsp;6 Abs.&nbsp;1 lit.&nbsp;a oder Art.&nbsp;9 Abs.&nbsp;2 lit.&nbsp;a DSGVO stützte, und es fehlt an einer anderweitigen Rechtsgrundlage für die Verarbeitung.</p>
+                    <p>(3) Sie legen gem. Art.&nbsp;21 Abs.&nbsp;1 DSGVO Widerspruch gegen die Verarbeitung ein und es liegen keine vorrangigen berechtigten Gründe für die Verarbeitung vor, oder Sie legen gem. Art.&nbsp;21 Abs.&nbsp;2 DSGVO Widerspruch gegen
+                        die Verarbeitung ein.</p>
+                    <p>(4) Die Sie betreffenden personenbezogenen Daten wurden unrechtmäßig verarbeitet.</p>
+                    <p>Sie haben das Recht, Ihre datenschutzrechtliche Einwilligungserklärung jederzeit zu widerrufen. Durch den Widerruf der Einwilligung wird die Rechtmäßigkeit der aufgrund der Einwilligung bis zum Widerruf erfolgten Verarbeitung nicht
+                        berührt.
+                    </p>
+                    <p><strong>5. Tracking Tool Google Analytics</strong></p>
+                    <p>Diese Website nutzt Dienste von Google Analytics um die Nutzerzugriffe auf diese Website auszuwerten. Die Datenverarbeitung erfolgt zum Zwecke der Werbung, der Marktforschung oder zur bedarfsgerechten Gestaltung unserer Website (gem.
+                        § 15 Abs. 3 Telemediengesetz). Mit Hilfe der Analytics-Lösung ist es uns möglich, das Nutzungsverhalten der Web-Angebote zu analysieren und kontinuierlich Verbesserungen abzuleiten. Analyse-Elemente sind beispielsweise besuchte
+                        Webseiten oder Services, Verweildauer auf Seiten, Klick-Pfade – also technisch nachvollziehbare Nutzungsmuster. Ohne persönliche Daten zu erfassen verstehen wir auf Basis der Nutzung, welche Seiten, welche Themen, welche Produkte
+                        oder welche Inhalte für unsere Besucher wichtig sind.</p>
+                    <p>Die Nutzungsdatenermittlung ist funktionaler Bestandteil der Angebote auf dieser Website und bezieht auch Marketing-relevante Informationen bei Vorhandensein in die Analyse-Funktionen mit ein. Bitte beachten Sie, dass funktionales
+                        Tracking sowie Tracking für Marketingzwecke unabhängig voneinander gesteuert werden können.</p>
+                    <p>Für die Auswertung mit den Diensten von Google werden Cookies auf Ihrem Endgerät gespeichert und hierüber Informationen erhoben, die auch auf Servern von Google gespeichert werden.</p>
+                    <p>Sie können der Datenerhebung und -verarbeitung jederzeit mit Wirkung für die Zukunft widersprechen oder indem Sie den Google Analytics Opt-out Browser Add-on in ihrem Browser installieren und die Schaltfläche „Opt out“ betätigen.</p>
+                    <p><a href="httpss://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener noreferrer">Bitte klicken Sie hier, um den Google Analytics Opt-out Browser Add-on zu installieren.</a></p>
+                    <p>Sie finden die Erweiterungen in den Einstellungen Ihres Browsers und schalten den Google Analytics Opt-out Browser Add-on ein/aus.</p>
+                    <p><strong>6. Rechtswirksamkeit dieses Haftungsausschlusses</strong><br> Dieser Haftungsausschluss ist als Teil des Internetangebotes zu betrachten, von dem aus auf diese Seite verwiesen wurde. Sofern Teile oder einzelne Formulierungen
+                        dieses Textes der geltenden Rechtslage nicht, nicht mehr oder nicht vollständig entsprechen sollten, bleiben die übrigen Teile des Dokumentes in ihrem Inhalt und ihrer Gültigkeit davon unberührt.</p>
+                </div>
+            </div>
+
+
+        </div>
+
+    </section>
+
+    <div class="overlay-success ">
+        <div class="popup-success ">
+
+            <h4 class="success-title ">Hash refolgreich generiert!</h4>
+            <button class="btn_close-popup ">Popup schlißen
+            </button>
+        </div>
+    </div>
+    <footer>
+        <div class="bottom-content container ">
+            <h5 class="footer-title ">
+                Ⓒ 2020 IPBee GmbH
+
+            </h5>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.js " integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin=" anonymous "></script>
+
+    <script src="./script/hash.js "></script>
+    <script src="./script/script.js "></script>
+
+</body>
+
+</html>
